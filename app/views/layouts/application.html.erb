@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overtheditch</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'vendor' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <%= link_to "Overtheditch", site_index_path, class: 'navbar-brand' %>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav-collapse">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <%= link_to "Learn", "#Learn", class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "About", "#about" , class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "FAQ", "#tokens", class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Check Eligibility", '#whitepaper', class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "More", '#roadmap' , class: 'nav-link' %>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <%= yield %>
+  </body>
+</html>

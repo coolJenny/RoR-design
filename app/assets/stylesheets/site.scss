@@ -1,0 +1,105 @@
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#home {
+  background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#1B8694));
+  background: -webkit-linear-gradient(#4bbfc3, #1B8694);
+  background: linear-gradient(#4bbfc3,#1B8694);
+}
+
+#learn {
+  background: -webkit-gradient(linear, top left, bottom left, from(#1B8694), to(#167081));
+  background: -webkit-linear-gradient(#1b8794, #167081);
+  background: linear-gradient(#1b8794,#167081);
+}
+
+#about {
+  background: -webkit-gradient(linear, top left, bottom left, from(#167081), to(#10576D));
+  background: -webkit-linear-gradient(#167081, #10576D);
+  background: linear-gradient(#167081,#10576D);
+}
+
+#faq {
+  background: -webkit-gradient(linear, top left, bottom left, from(#10576D), to(#093D58));
+  background: -webkit-linear-gradient(#10576D, #093D58);
+  background: linear-gradient(#10576D,#093D58);
+}
+
+#check {
+  background: -webkit-gradient(linear, top left, bottom left, from(#093D58), to(#042946));
+  background: -webkit-linear-gradient(#093D58, #042946);
+  background: linear-gradient(#093D58,#042946);
+}
+
+#more {
+  background: -webkit-gradient(linear, top left, bottom left, from(#042946), to(#011A39));
+  background: -webkit-linear-gradient(#042946, #011A39);
+  background: linear-gradient(#042946,#011A39);
+}
+
+body {
+  font-family: lato;
+  color: white;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 800;
+  opacity: 0.32;
+}
+
+p {
+  font-size: 18px;
+}
+
+.cta {
+  margin-top: 42px;
+  color: black;
+  border-radius: 25px;
+}
+.navbar-brand {
+  color: white;
+}
+
+.nav-item a{
+  color: white;
+  font-weight: 800;
+  font-size: 13pt;
+  margin-right: 35px;
+}
+
+#learn .row {
+  margin-top: 75px;
+}
+
+.info-subheading {
+  padding-top:42px !important;
+}
+
+.info-text {
+  margin-top: 42px !important;
+  margin-bottom: 0px !important;
+}
+
+.process-button {
+    color: white;
+    font-weight: 800;
+    font-size: 10pt;
+    padding-bottom:10px;
+}
